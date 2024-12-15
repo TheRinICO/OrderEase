@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/orders/orders",
+    "pages/my/my",
+    "pages/register/register",
+    "pages/detail/detail",
+    "pages/confirm/confirm"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蓝星外卖",
+    "navigationBarBackgroundColor": "#409EFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-s.png"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "static/icons/orders.png",
+        "selectedIconPath": "static/icons/orders-s.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icons/my.png",
+        "selectedIconPath": "static/icons/my-s.png"
+      }
+    ],
+    "selectedColor": "#409EFF"
+  },
+  "permission": {},
+  "usingComponents": {}
+}

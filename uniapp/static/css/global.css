@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+page {
+	/* 定义根节点的最小高度为整个窗口的高度 */ 
+	background-color: #fdfdfd;
+}
+
+.box {
+	background-color: #fff;
+	padding: 20rpx;
+	border-radius: 10rpx;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, .1);
+}

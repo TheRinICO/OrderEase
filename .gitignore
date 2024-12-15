@@ -1,0 +1,14 @@
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+
+/springboot.mvn/
+/springboot/target/
+/springboot/mvnw
+/springboot/mvnw.cmd
+
+/vite/node_modules/
+/vite/dist/
